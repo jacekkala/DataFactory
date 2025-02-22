@@ -11,7 +11,7 @@ This project demonstrates an **ETL (Extract, Transform, Load) pipeline** built u
 ### Data Flow:
 
 1. **Source:** CSV files stored in **Azure Data Lake Storage Gen2**.
-2. **Processing:** A **Copy Activity** in ADF extracts data from CSV, applies necessary transformations, and maps it to the Synapse schema.
+2. **Processing:** A **Copy Activity** in Azure Data Factory extracts data from CSV, applies necessary transformations, and maps it to the Synapse schema.
 3. **Destination:** Data is loaded into an **Azure Synapse Analytics table** for further analysis.
 4. **Automation:** A **scheduled trigger** runs every **5 minutes** to automate the data movement.
 
